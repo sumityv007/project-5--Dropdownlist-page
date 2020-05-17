@@ -1,0 +1,49 @@
+body{
+    background-image: url(4.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list{
+   width:85%;
+    height:100px;
+    margin:0px auto;
+}
+
+.list ul{
+    padding:0px;
+}
+.list ul li{
+ float:left;
+ background-color: black;
+ color:white;
+ list-style: none;
+    width:200px;
+    line-height: 50px;
+    font-size:25px;
+    text-align: center;
+    opacity:0.6;
+}
+
+.list ul li ul{
+ display:none;   
+}
+
+.list ul li:hover>ul {
+ display:block;   
+}
+
+.list ul li:hover{
+    background-color:#32cd32;
+    opacity:0.9;
+}
+
+.list ul li ul li{
+    position:relative;
+}
+.list ul li ul li ul{
+    position:absolute;
+    left:200px;
+    top:0;
+}
